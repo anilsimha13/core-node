@@ -3,6 +3,10 @@
 _It was created by Ryan Dahl in 2009._
 _It is maintained by the OpenJS Foundation._
 
+## Table of Contents
+
+- [Episode 01 | Introduction to Node.js](#episode-01--introduction-to-nodejs)
+
 ## Episode 01 | Introduction to Node.js
 
 ### Key Concepts
