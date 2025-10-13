@@ -53,7 +53,7 @@ _It is maintained by the OpenJS Foundation._
   - On chrome `window` is the global object, but in Node.js the global object is `global` and `this` refers to an empty object `{}` in the module scope and `this` refers to `global` in the REPL. `Self` is Window's equivalent of `this`on the global scope.
   - GlobalThis is a standard way to refer to the global object across different JavaScript environments.
 
-```js
+```javascript
 console.log(global); // Node.js global object
 console.log(this); // {}
 console.log(globalThis === this); // false
