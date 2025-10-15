@@ -1,10 +1,4 @@
-var fName = "Anil";
-var lName = "Simha";
-var a = 10;
-var b = 20;
-var c = a + b;
-console.log("Sum is " + c);
-console.log(fName + " " + lName);
-console.log(global);
-console.log(this);
+const { multiply, calcSum } = require("./index");
 
+multiply(19, 10);
+calcSum(19, 10);

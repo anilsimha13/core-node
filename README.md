@@ -8,6 +8,7 @@ _It is maintained by the OpenJS Foundation._
 - [Episode 01 | Introduction to Node.js](#episode-01--introduction-to-nodejs)
 - [Episode 02 | JS on Server](#episode-02--js-on-server)
 - [Episode 03 | Let's write code](#episode-03--lets-write-code)
+- [Episode 04 | Module.export & require](#Episode-04-Module.export-require)
 
 ## Episode 01 | Introduction to Node.js
 
@@ -59,4 +60,36 @@ console.log(this); // {}
 console.log(globalThis === this); // false
 console.log(global === globalThis); //true
 console.log(global === this); // false
+```
+
+## Episode 04 | Module.export & require
+
+### Key Concepts
+
+- require module
+  - modules protects their variables and function from leaking
+- Two types of Module patterns
+  - CommonJS(_module.exports & require_)
+    - Sync
+    - NonStrict
+  - ES Modules (_import & export_)
+    - In package.json (type='module')
+    - Async
+    - Strict
+
+```js
+//filename1: sum.js
+function sumOfTwo(x, y) {
+  cc = x + y;
+  console.log(cc);
+}
+let x = 999;
+let y = 888;
+module.exports = { x, y, sumOfTwo }; //commonJS modules(modules.exports & require)
+
+//filename2: app.js
+const { sumOfTwo, x, y } = require("./sum"); //destructuring on fly
+sumOfTwo(10, 20);
+z = x + y;
+console.log(z);
 ```
