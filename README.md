@@ -9,6 +9,7 @@ _It is maintained by the OpenJS Foundation._
 - [Episode 02 | JS on Server](#episode-02--js-on-server)
 - [Episode 03 | Let's write code](#episode-03--lets-write-code)
 - [Episode 04 | Module.export & require](#Episode-04-Module.export-require)
+- [Episode 05 | Diving into the Node.js repo](Episode-05-Diving-into-the-Node.js-repo)
 
 ## Episode 01 | Introduction to Node.js
 
@@ -93,3 +94,8 @@ sumOfTwo(10, 20);
 z = x + y;
 console.log(z);
 ```
+
+## Episode 05 | Diving into the Node.js repo
+
+- IIFE (_Immediately Invoked Function Expression_)
+  - `(function (){ })()`Calling Anonymous function immediately
