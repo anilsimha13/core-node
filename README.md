@@ -10,6 +10,7 @@ _It is maintained by the OpenJS Foundation._
 - [Episode 03 | Let's write code](#episode-03--lets-write-code)
 - [Episode 04 | Module.export & require](#Episode-04-Module.export-require)
 - [Episode 05 | Diving into the Node.js repo](Episode-05-Diving-into-the-Node.js-repo)
+- [Episode 06 | Libuv & async IO](Episode-06-Libuv-async-IO)
 
 ## Episode 01 | Introduction to Node.js
 
@@ -99,3 +100,12 @@ console.log(z);
 
 - IIFE (_Immediately Invoked Function Expression_)
   - `(function (){ })()`Calling Anonymous function immediately
+
+## Episode 06 | Libuv & async IO
+
+- Synchronous 
+- Asynchronous
+
+- **Libuv**
+  - Asynchronous I/O made simple.
+  - Written on C language
