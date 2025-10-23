@@ -11,6 +11,8 @@ _It is maintained by the OpenJS Foundation._
 - [Episode 04 | Module.export & require](#Episode-04-Module.export-require)
 - [Episode 05 | Diving into the Node.js repo](Episode-05-Diving-into-the-Node.js-repo)
 - [Episode 06 | Libuv & async IO](Episode-06-Libuv-async-IO)
+- [Episode 07 | sync, async, setTimeoutZero - code](#episode-07--sync-async-settimeoutzero---code)
+- [Episode 08 | Deep dive into v8 JS Engine](#episode-08--deep-dive-into-v8-js-engine)
 
 ## Episode 01 | Introduction to Node.js
 
@@ -103,9 +105,16 @@ console.log(z);
 
 ## Episode 06 | Libuv & async IO
 
-- Synchronous 
+- Synchronous
 - Asynchronous
 
 - **Libuv**
   - Asynchronous I/O made simple.
   - Written on C language
+
+## Episode 07 | sync, async, setTimeoutZero - code
+
+- sync methods blocks the main thread
+- Never ever use the sync methods
+
+## Episode 08 | Deep dive into v8 JS Engine
